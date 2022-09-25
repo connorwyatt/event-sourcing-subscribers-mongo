@@ -11,9 +11,9 @@
     <PropertyGroup>
         <PackageId>ConnorWyatt.EventSourcing.Subscriptions.Mongo</PackageId>
         <RepositoryType>git</RepositoryType>
-        <RepositoryUrl>https://github.com/connorwyatt/event-sourcing-subscribers-mongo-dotnet</RepositoryUrl>
+        <RepositoryUrl>https://github.com/connorwyatt/event-sourcing-subscriptions-mongo-dotnet</RepositoryUrl>
     </PropertyGroup>
-    
+
     <ItemGroup>
         <PackageReference Include="ConnorWyatt.EventSourcing" Version="0.0.1" />
         <PackageReference Include="ConnorWyatt.Mongo" Version="0.0.1" />
