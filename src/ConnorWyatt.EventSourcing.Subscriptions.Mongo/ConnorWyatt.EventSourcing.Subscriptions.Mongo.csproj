@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <PackageId>ConnorWyatt.EventSourcing.Subscriptions.Mongo</PackageId>
+        <RepositoryType>git</RepositoryType>
+        <RepositoryUrl>https://github.com/connorwyatt/event-sourcing-subscribers-mongo-dotnet</RepositoryUrl>
+    </PropertyGroup>
+    
+    <ItemGroup>
+        <PackageReference Include="ConnorWyatt.EventSourcing" Version="0.0.1" />
+        <PackageReference Include="ConnorWyatt.Mongo" Version="0.0.1" />
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+    </ItemGroup>
+
+</Project>
